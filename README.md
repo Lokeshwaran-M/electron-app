@@ -13,3 +13,16 @@ git clone https://github.com/Lokeshwaran-M/electron-app/tree/main/d-app
 # Run the app
 npm start
 ```
+
+
+
+## To Install new package
+
+```bash
+npm init electron-app@latest d-app --template=webpack
+cd d-app
+npm start
+npm run start
+rs
+
+```
