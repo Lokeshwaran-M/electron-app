@@ -9,7 +9,11 @@ To clone and run this repository require  [ [Git](https://git-scm.com) ]  [ [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/Lokeshwaran-M/electron-app/tree/main/d-app
+git clone https://github.com/Lokeshwaran-M/electron-app.git
+# change directory
+cd d-app
+# install dependencies using package.json
+npm i
 # Run the app
 npm start
 ```
@@ -19,8 +23,8 @@ npm start
 ## To Install new package
 
 ```bash
-npm init electron-app@latest d-app --template=webpack
-cd d-app
+npm init electron-app@latest name-app --template=webpack
+cd name-app
 npm start
 npm run start
 rs
